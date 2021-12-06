@@ -1,0 +1,23 @@
+# Start project
+
+npm init 
+
+npm install --save-dev jest
+
+in package.json
+"scripts": {
+    "test": "jest",
+},
+
+npm run test 
+
+node main.js
+
+# How to make prettier work
+
+in vscode settings.json:
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+}
+
